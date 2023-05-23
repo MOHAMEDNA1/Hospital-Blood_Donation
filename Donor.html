@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Donor.css" />
+    <title>Donar Page</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <a href="./Admin.html"><h6>Back</h6></a>
+        <div class="col col-8">
+          <h1>Registration</h1>
+          <div class="outer">
+            <form action="">
+              <input
+                type="text"
+                class="input_box"
+                placeholder="Enter Your Name..."
+                required
+              />
+              <br />
+              <input
+                type="password"
+                class="input_box"
+                placeholder="Enter Your password..."
+                required
+              />
+              <br />
+              <input
+                type="email"
+                class="input_box"
+                placeholder="Enter Your Email ID..."
+                required
+              />
+              <br />
+
+              <input
+                type="number"
+                class="box2"
+                placeholder="Enter Your Age..."
+                required
+              />
+              <br />
+              <h6>Gender:</h6>
+
+              <input
+                type="radio"
+                style="margin-left: 60px"
+                name="gender"
+                id="Male"
+                required
+              />&nbsp;<span class="label"> Male</span>
+
+              <input
+                type="radio"
+                style="margin-left: 20px"
+                name="gender"
+                id="Female"
+                required
+              />&nbsp;<span class="label">Female</span>
+              <br />
+              <label class="select">Select Your Blood Type :</label>
+              <select class="BloodType" id="BloodType" required>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+              </select>
+              <br />
+
+              <input type="submit" class="btnSubmit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

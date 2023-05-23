@@ -1,0 +1,102 @@
+.innerBox {
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url("./asset/doctor2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+}
+h6 {
+  color: black;
+  text-align: left;
+  padding: 5px;
+}
+h6:active {
+  color: blue;
+  /* background-color: red; */
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 800;
+  color: #3a98b9;
+  /* border: 2px solid; */
+  padding: 10px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  text-shadow: 2px 3px 4px black;
+  margin-bottom: 20px;
+  animation-name: title;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  /* width: 200px; */
+}
+@keyframes title {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+    color: blueviolet;
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.btn1 {
+  margin-top: 20px;
+  background-color: #6096b4;
+}
+
+.Boxes {
+  /* width: 400px; */
+
+  /* background-color: red; */
+  text-align: center;
+}
+.col-12 {
+  height: 100vh;
+
+  /* background-color: #3a98b9; */
+
+  /* background-repeat: no-repeat; */
+
+  background-size: cover;
+}
+input {
+  
+  background-color: rgba(0, 0, 0, 0.765);
+  border-radius: 100px;
+  width: 300px;
+  box-shadow: 2px 3px 4px black;
+  height: 50px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.inputAge::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:hover {
+  background-color: rgba(0, 0, 0, 0.938);
+}
+.btn1:hover {
+  background-color: #2da4cf;
+}
+.container-fluid {
+  text-align: center;
+}

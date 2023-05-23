@@ -1,0 +1,111 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url("./asset/bg-min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input:hover {
+  background-color: rgba(0, 0, 0, 0.839);
+}
+.buttons {
+  background-color: rgba(0, 0, 0, 0.761);
+  border: none;
+}
+input {
+  font-weight: 600;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.864);
+  color: white;
+  letter-spacing: 1px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 4px black;
+  border: none;
+}
+h4 {
+  color: white;
+  padding: 10px;
+  /* border: 2px solid; */
+  width: 50px;
+  /* background-color: red; */
+}
+.back {
+  width: 50px;
+  /* border: 2px solid; */
+}
+a:hover {
+  /* color: blue; */
+  /* border: 1px solid black; */
+  /* border-radius: 50px;
+  padding: 5px; */
+}
+a {
+  /* border: 2px solid; */
+  /* font-size: 20px; */
+  /* width: 150px; */
+  /* background-color: yellow; */
+}
+h1 {
+  color: black;
+  margin-bottom: 50px;
+  font-weight: 800;
+
+  animation-name: title;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  /* padding: 20px; */
+  /* border: 2px solid white; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-shadow: 0px 0px 10px black;
+  /* text-shadow: 0px 0px 4px solid; */
+  letter-spacing: 1px;
+  animation-name: title;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes title {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translatex(20px);
+  }
+}
+.InBox {
+  margin-top: 50px;
+  /* background-color: red; */
+  padding: 50px;
+
+  /* margin: 50px; */
+}
+
+.buttons:hover {
+  background-color: rgba(0, 255, 255, 0.694);
+}
